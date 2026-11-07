@@ -1,0 +1,8 @@
+{
+  "name": "Remix DAS Architecture \u0026 Construction",
+  "description": "Ultra-modern and client-friendly portfolio presentation for DAS, a luxury architecture, interior design, and turnkey construction studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

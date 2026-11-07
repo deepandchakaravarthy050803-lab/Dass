@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #E9E0D7;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* Custom architectural hairline grid lines */
+.arch-grid-line {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.arch-grid-line-dark {
+  border-color: rgba(48, 48, 48, 0.15);
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #303030;
+}
+::-webkit-scrollbar-thumb {
+  background: #606060;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
