@@ -98,7 +98,7 @@ export const SERVICES: ServiceItem[] = [
     description: 'High-productivity corporate environments, executive boardrooms, collaborative open workspaces, and aluminum-framed acoustic modular partitions.',
     highlights: ['Acoustic attenuation & soundproofing', 'Modular aluminum & frosted glass cubicles', 'Integrated data, power & ergonomic desking'],
     deliverables: ['Space utilization blueprints', 'Modular partition fabrication', 'Turnkey fit-out & testing'],
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
     typicalDuration: '2–3 Months',
   },
   {
@@ -131,7 +131,7 @@ export const SERVICES: ServiceItem[] = [
     description: 'Structural retrofitting, ceiling reinforcement, load-bearing modifications, facade overhauls, and complete interior modernization for dated properties.',
     highlights: ['Structural slab & lintel repair', 'Controlled wall demolition & open-plan conversions', 'Complete electrical & plumbing repiping'],
     deliverables: ['Structural safety assessment', 'Phased renovation schedule', 'Modernized turnkey handover'],
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
     typicalDuration: '2–5 Months',
   },
   {
@@ -196,7 +196,7 @@ export const FEATURED_PROJECTS: Project[] = [
     galleryImages: [
       'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1600&q=85',
       'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85',
-      '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg'
+      '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg'
     ],
     client: 'Art Collector & Family',
     scope: 'Complete Interior Architecture, Custom Furniture & Lighting',
@@ -221,7 +221,7 @@ export const FEATURED_PROJECTS: Project[] = [
     ],
     imageUrl: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85',
     galleryImages: [
-      '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
+      '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
       'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=85'
     ],
     client: 'Corporate Executive',
@@ -248,7 +248,7 @@ export const FEATURED_PROJECTS: Project[] = [
     imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85',
     galleryImages: [
       'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1600&q=85',
-      '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg'
+      '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg'
     ],
     client: 'Global Logistics Group',
     scope: 'Turnkey Civil Construction, Facade Engineering & MEP',
@@ -373,7 +373,7 @@ export const INTERIOR_GALLERY: InteriorGalleryItem[] = [
     area: '2,400 sq.ft',
     style: 'Corporate Acoustic Modernism',
     materials: 'Powder-coated Aluminum, Frosted Glass, Acoustic Core',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
     featured: true,
   },
   {
@@ -383,7 +383,180 @@ export const INTERIOR_GALLERY: InteriorGalleryItem[] = [
     area: 'Custom Joinery Unit',
     style: 'Bespoke Architectural Vitrine',
     materials: 'Textured Stone Backing, Tempered Glass, Warm 2700K LED',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-09',
+    title: 'Curved 4-Point Star Gypsum Cove Ceiling',
+    category: 'False Ceilings',
+    area: '450 sq.ft',
+    style: 'Contemporary Sculptural Gypsum',
+    materials: 'High-Grade Gypsum Plaster, Warm 3000K Concealed Cove LED, Perimeter Spotlights',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.03_PM_a9feb2f6.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-10',
+    title: 'Layered Stepped Square Tray Ceiling',
+    category: 'False Ceilings',
+    area: '380 sq.ft',
+    style: 'Architectural Minimalist Tray',
+    materials: 'Multi-Tier Gypsum, Diffused White LED Perimeter Trough, Recessed Spotlights',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.08_PM_7d8ed28b.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-11',
+    title: 'Long Corridor Architectural Trough Ceiling',
+    category: 'False Ceilings',
+    area: '520 sq.ft',
+    style: 'Linear Spatial Perspective',
+    materials: 'Concealed Trough Beads, Square Recessed Spots, Shadow Line Borders',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.12_PM_b0eb8c70.jpeg',
+  },
+  {
+    id: 'int-12',
+    title: 'Geometric Interlocking Tray Ceiling Design',
+    category: 'False Ceilings',
+    area: '420 sq.ft',
+    style: 'Modern Dual-Level Tray',
+    materials: 'Gypsum Plaster, Amber Indirect Cove Glow, Geometric Border Channels',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.25_PM_8500968e.jpeg',
+  },
+  {
+    id: 'int-13',
+    title: 'Concentric Halo Ceiling with Blue Neon Cove',
+    category: 'False Ceilings',
+    area: '620 sq.ft',
+    style: 'Master Suite Halo Luxe',
+    materials: 'Triple-Tier Radial Drop Plaster, Blue Neon LED Cove, Reinforced Fan Anchor',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.29_PM_78aa9911.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-14',
+    title: 'Classical Fan Medallion & Chandelier Tray',
+    category: 'False Ceilings',
+    area: '550 sq.ft',
+    style: 'Neoclassical Residential Elegance',
+    materials: 'Decorative POP Cornice Moldings, Crystal Chandelier Anchor, Warm LED Trough',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.33_PM_ddeaefe6.jpeg',
+  },
+  {
+    id: 'int-15',
+    title: 'Nautical Helm Gold Textured Ceiling Medallion',
+    category: 'False Ceilings',
+    area: 'Bespoke Centerpiece',
+    style: 'Artisan Statement Feature',
+    materials: 'Hand-Applied Gold Stucco Texture, Multi-Tier Hanging Ball Pendants, Recessed LEDs',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.38_PM_db41456f.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-16',
+    title: 'Symmetrical Geometric Rafter Gypsum Ceiling',
+    category: 'False Ceilings',
+    area: '340 sq.ft',
+    style: 'Warm Symmetrical Modernism',
+    materials: 'Stepped Gypsum Rings, Wooden Rafter Accent Strips, Balanced Downlights',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.38_PM_0a2a3a11.jpeg',
+  },
+  {
+    id: 'int-17',
+    title: 'Corporate Lobby & Marble Clad Reception Desk',
+    category: 'Offices',
+    area: '850 sq.ft',
+    style: 'Executive Corporate Hospitality',
+    materials: 'Beige Marble Tile Cladding, Vertical Fluted Laminate Panels, Mosaic Band',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.46_PM_d9e03506.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-18',
+    title: 'Executive Boardroom & Marble Paneled Suite',
+    category: 'Offices',
+    area: '1,100 sq.ft',
+    style: 'Corporate Governance Suite',
+    materials: 'High-Gloss Marble Laminate Walls, Race-Track Boardroom Table, Concealed Storage',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.39_PM__1__bb9aa7bc.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-19',
+    title: 'Managing Director Private Office & Cabin',
+    category: 'Offices',
+    area: '480 sq.ft',
+    style: 'Executive Bespoke Suite',
+    materials: 'L-Shaped Dark Wenge Workstation, Marble Wall Panelling, Floating Display Shelves',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.39_PM_a885392a.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-20',
+    title: 'Commercial Modular Grid Ceiling & Cassette HVAC',
+    category: 'Offices',
+    area: '2,800 sq.ft',
+    style: 'Commercial Turnkey Fitout',
+    materials: '2x2 Acoustic Mineral Fiber Tiles, Integrated Cassette AC, 600x600 LED Panels',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.16_PM_e1c5ed49.jpeg',
+  },
+  {
+    id: 'int-21',
+    title: 'L-Shaped Modular Kitchen with Marble Texture Laminates',
+    category: 'Modular Kitchens',
+    area: '280 sq.ft',
+    style: 'Modern Functional Residential',
+    materials: 'Marble-Grain Soft-Close Laminates, Jet Black Granite Counter, Fruit Motif Backsplash',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.37_PM_42ba4c0b.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-22',
+    title: 'Modular Kitchen Corner Layout & Chimney Venting',
+    category: 'Modular Kitchens',
+    area: 'Detail View',
+    style: 'Ergonomic Work Triangle',
+    materials: 'Black Granite Bullnose Edge, Stainless Sink, Wall Chimney Ducting',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.43_PM_0d4fd6c6.jpeg',
+  },
+  {
+    id: 'int-23',
+    title: 'Modular Kitchen Frosted Glass Overhead Vitrine',
+    category: 'Modular Kitchens',
+    area: 'Cabinetry Detail',
+    style: 'Euro Hydraulic Cabinetry',
+    materials: 'Aluminium Glass Profile Doors, Hydraulic Lift-up Stays, Plinth Base',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.49_PM_89e4b7c7.jpeg',
+  },
+  {
+    id: 'int-24',
+    title: 'Luxury Slate Gray Acrylic U-Shaped Kitchen',
+    category: 'Modular Kitchens',
+    area: '620 sq.ft',
+    style: 'Contemporary Ultra-Gloss Luxe',
+    materials: 'Slate Gray Acrylic Shutters, Pure White Quartz Countertops, Angled Chimney, Designer Pendants',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.59_PM_73b57a41.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-25',
+    title: 'Custom Living Room TV Entertainment Console',
+    category: 'Living Rooms',
+    area: '320 sq.ft unit',
+    style: 'Modern Accent Entertainment',
+    materials: 'Floating Dual-Tone Drawers, Warm White Display Niches, Glass Showcase Tower',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.53_PM_3edab3b7.jpeg',
+    featured: true,
+  },
+  {
+    id: 'int-26',
+    title: 'Sanctuary Stage Transformation (Before & After)',
+    category: 'Renovation',
+    area: '1,200 sq.ft Altar',
+    style: 'Architectural Timber & Stone Transformation',
+    materials: 'Acoustic Fluted Timber Slat Backdrop, Backlit Brass Cross, Rustic Stone Clad Pillars',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.56_PM_cc126420.jpeg',
     featured: true,
   },
 ];
@@ -405,7 +578,7 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     location: 'South City Residential Enclave',
     stage: 'Sub-structure Footing & Plinth Beams',
     structuralDetails: 'Reinforced concrete isolated & combined footings with high-tensile Fe550D rebar cages and M30 grade concrete pour.',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
     isRealSiteAsset: true,
   },
   {
@@ -415,8 +588,8 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     location: 'Greenwood Sector 4',
     stage: 'Earthwork & Foundation Layout',
     structuralDetails: 'Heavy JCB hydraulic excavation adhering to lime-marked structural grid axes and soil bearing capacity compaction tests.',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
-    videoUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.02_AM_cc4d8e7b.mp4',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
+    videoUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.02_AM_cc4d8e7b.mp4',
     isRealSiteAsset: true,
   },
   {
@@ -426,8 +599,8 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     location: 'Heritage Colony Renewal',
     stage: 'Structural Remodeling & Demolition',
     structuralDetails: 'Controlled structural jackhammer demolition of decayed concrete slab to re-engineer high-strength composite beam reinforcement.',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
-    videoUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.59_AM_6f63563a.mp4',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
+    videoUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.59_AM_6f63563a.mp4',
     isRealSiteAsset: true,
   },
   {
@@ -446,8 +619,8 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     location: 'Central Avenue Revitalization',
     stage: 'Slab Reinforcement & Grouting',
     structuralDetails: 'Exposing corrosion-affected rebar grid, applying zinc-rich primer, and micro-concrete bonding jacket for structural longevity.',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
-    videoUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.58_AM_618a82aa.mp4',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
+    videoUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.58_AM_618a82aa.mp4',
     isRealSiteAsset: true,
   },
   {
@@ -457,7 +630,7 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     location: 'Palm Meadows Phase II',
     stage: 'Superstructure Plinth Level',
     structuralDetails: 'High-density steam-cured solid concrete blocks laid over damp-proof course with vibration-compacted tie beams.',
-    imageUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.16_AM_98adaf12.jpeg',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.16_AM_98adaf12.jpeg',
     isRealSiteAsset: true,
   },
   {
@@ -468,6 +641,36 @@ export const CONSTRUCTION_GALLERY: ConstructionGalleryItem[] = [
     stage: 'Fully Commissioned',
     structuralDetails: 'Post-tensioned 12m clear spans with integrated composite steel-concrete core and seismic damping dampers.',
     imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=85',
+  },
+  {
+    id: 'const-09',
+    title: 'On-Site POP Grid Framing & Plastering Execution',
+    category: 'Structural & Site Progress',
+    location: 'Commercial & Residential Fitout Site',
+    stage: 'Drywall Boarding & Plaster Joint Taping',
+    structuralDetails: 'Heavy-gauge GI ceiling channels, moisture-resistant gypsum plasterboard, and mobile scaffolding towers.',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.21_PM_49848f94.jpeg',
+    isRealSiteAsset: true,
+  },
+  {
+    id: 'const-10',
+    title: 'Industrial Security Entrance Portal – Zirconium Complex',
+    category: 'Infrastructure',
+    location: 'Industrial Facility Axis',
+    stage: 'Commissioned & Operational',
+    structuralDetails: 'Engineered structural steel portal frame with aluminum composite claddings, automated crash barrier, and security outpost glazing.',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.51_PM_02afeb1c.jpeg',
+    isRealSiteAsset: true,
+  },
+  {
+    id: 'const-11',
+    title: 'Sanctuary Stage Transformation (Before & After)',
+    category: 'Completed Projects',
+    location: 'Community Center / Sanctuary',
+    stage: 'Full Turnkey Modernization',
+    structuralDetails: 'Complete rip-out of legacy fabric curtains; installed acoustic timber slats, integrated stage wiring, and ledger stone columns.',
+    imageUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.56_PM_cc126420.jpeg',
+    isRealSiteAsset: true,
   },
 ];
 
@@ -654,7 +857,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Finished Interiors & Handover',
     stageLabel: 'Completed & Ready to Move In',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.10_AM_4a55ab05.mp4',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.10_AM_4a55ab05.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80',
     workDone: [
       'Italian Pattern Polished Marble Flooring',
@@ -673,7 +876,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Custom Millwork & Glass Showcase',
     stageLabel: 'Fittings & Spotlighting Complete',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.13_AM_84e5d5aa.mp4',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.13_AM_84e5d5aa.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80',
     workDone: [
       'Double-Door Framed Glass Display Unit',
@@ -692,7 +895,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Finished Interiors & Handover',
     stageLabel: 'Final Flooring, Lighting & Paint',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.15_AM_8b7d218b.mp4',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.15_AM_8b7d218b.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80',
     workDone: [
       'Large Format Marble Floor Tiles',
@@ -711,8 +914,8 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Site Groundwork & Excavation',
     stageLabel: 'Earthwork & Foundation Trenching',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.02_AM_cc4d8e7b.mp4',
-    thumbnailUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.48.02_AM_cc4d8e7b.mp4',
+    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
     workDone: [
       'JCB Hydraulic Trench & Pit Digging',
       'Lime Marking Layout Alignment',
@@ -730,7 +933,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Site Groundwork & Excavation',
     stageLabel: 'Plot Marking & Excavator Positioning',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.14_AM_0c717f8e.jpeg',
     workDone: [
       'Architectural Grid Centerline Marking',
       'White Lime Setting for Column Pits',
@@ -748,7 +951,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Civil Construction & RCC Frame',
     stageLabel: 'Substructure Concreting & Curing',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg',
     workDone: [
       'M25 Grade Plinth Beam Casting',
       'Shuttering & Formwork Assembly',
@@ -766,7 +969,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Civil Construction & RCC Frame',
     stageLabel: 'Structural Steel Reinforcement',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.16_AM_98adaf12.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.16_AM_98adaf12.jpeg',
     workDone: [
       'High-Tensile Fe550D TMT Column Cages',
       'Stirrup Rings Tied at 150mm Spacing',
@@ -784,7 +987,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Civil Construction & RCC Frame',
     stageLabel: 'Curing & Blockwork Stage',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM__1__3f45f0f1.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM__1__3f45f0f1.jpeg',
     workDone: [
       'Formwork Stripping with Zero Honeycombing',
       'High-Strength Solid Masonry Block Stacking',
@@ -802,8 +1005,8 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Structural Demolition & Remodeling',
     stageLabel: 'Active Demolition with Jackhammer',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.59_AM_6f63563a.mp4',
-    thumbnailUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.59_AM_6f63563a.mp4',
+    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
     workDone: [
       'Heavy Pneumatic Breaker Operation',
       'Careful Sectioning of Old Weakened Slabs',
@@ -821,8 +1024,8 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Structural Demolition & Remodeling',
     stageLabel: 'Ceiling Rehabilitation & Chipping',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.58_AM_618a82aa.mp4',
-    thumbnailUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.58_AM_618a82aa.mp4',
+    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
     workDone: [
       'Removing Loose Spalled Concrete',
       'Exposing Corroded Rebar for Treatment',
@@ -840,8 +1043,8 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Structural Demolition & Remodeling',
     stageLabel: 'Site Assessment & Distress Survey',
     mediaType: 'video',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.57_AM_93e774c6.mp4',
-    thumbnailUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Video_2026-11-07_at_11.47.57_AM_93e774c6.mp4',
+    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
     workDone: [
       'Ceiling Delamination & Crack Inspection',
       'Structural Load Safety Evaluation',
@@ -859,7 +1062,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Structural Demolition & Remodeling',
     stageLabel: 'Before Work Condition',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.09_AM_4c87c240.jpeg',
     workDone: [
       'Documenting Rebar Section Loss',
       'Identifying Waterproofing Failure Roots',
@@ -877,7 +1080,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Structural Demolition & Remodeling',
     stageLabel: 'Dismantling & Debris Sorting',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg',
     workDone: [
       'Upper Level Wall Dismantling',
       'Sorting & Stacking Salvageable Bricks',
@@ -895,7 +1098,7 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     categoryLabel: 'Commercial Partitions & Interiors',
     stageLabel: 'Fabrication & Installation Complete',
     mediaType: 'image',
-    mediaUrl: '/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg',
     workDone: [
       'Black Powder-Coated Aluminum Sections',
       'Frosted Privacy Safety Glass Panels',
@@ -904,6 +1107,384 @@ export const REAL_WORKS_DATA: RealWorkItem[] = [
     ],
     location: 'Commercial Center & Clinical Suite',
     highlight: 'Modern, acoustic, durable partition systems for offices, clinics, and businesses.',
+  },
+  // 15. Curved 4-Point Star Ceiling
+  {
+    id: 'work-15',
+    title: 'Curved 4-Point Star Gypsum Cove Ceiling',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Ambient LED Lighting Active',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.03_PM_a9feb2f6.jpeg',
+    workDone: [
+      'Sculptural 4-Point Curved Star Gypsum Plastering',
+      'Concealed 3000K Warm Yellow LED Cove Channel',
+      'Dual Perimeter Crown Moldings with Recessed Downlights',
+      'Seamless High-Coverage Acrylic Emulsion Finish'
+    ],
+    location: 'Luxury Villa Living Room',
+    highlight: 'Custom hand-finished sculptural star medallion delivering soft architectural glow.',
+  },
+  // 16. Layered Stepped Square Tray Ceiling
+  {
+    id: 'work-16',
+    title: 'Layered Stepped Square Tray Ceiling',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Handed Over',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.08_PM_7d8ed28b.jpeg',
+    workDone: [
+      'Dual-Level Stepped Gypsum Tray Framework',
+      'Diffused White Indirect Cove Illumination',
+      '4 Perimeter High-Efficiency Square Spotlights',
+      'Anti-Crack Fiberglass Joint Mesh Skimming'
+    ],
+    location: 'Master Bedroom Suite',
+    highlight: 'Clean, minimalist tiered ceiling adding architectural depth and tranquil indirect light.',
+  },
+  // 17. Long Corridor Ceiling
+  {
+    id: 'work-17',
+    title: 'Long Corridor Architectural Trough Ceiling',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Final Paint & Lighting Inspection',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.12_PM_b0eb8c70.jpeg',
+    workDone: [
+      'Continuous Linear Gypsum Drop Ceiling',
+      'Recessed Square Downlight Cavity Boxing',
+      'Perimeter Shadow Line Edge Channels',
+      'Acoustic Attenuation & Vibration Insulation'
+    ],
+    location: 'Private Residence Hallway Axis',
+    highlight: 'Engineered for seamless linear spatial flow, accentuating corridor length.',
+  },
+  // 18. On-Site POP Framing & Plastering
+  {
+    id: 'work-18',
+    title: 'On-Site POP Grid Framing & Plastering Execution',
+    workType: 'foundation',
+    categoryLabel: 'Civil & Site Execution',
+    stageLabel: 'Active Framework, Boarding & Joint Putty',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.21_PM_49848f94.jpeg',
+    workDone: [
+      'Galvanized Iron (GI) Heavy-Gauge Channel Grid',
+      'Moisture-Resistant Gypsum Board Screw Fixing',
+      'Joint Tape Bonding & Multi-Coat Putty Skimming',
+      'Mobile Scaffolding Platform Safety Protocols'
+    ],
+    location: 'Turnkey Commercial & Residential Site',
+    highlight: 'Demonstrates our precision structural framing before painting and finishing.',
+  },
+  // 19. Commercial Grid Ceiling & Cassette AC
+  {
+    id: 'work-19',
+    title: 'Commercial Modular Grid Ceiling & Cassette HVAC',
+    workType: 'commercial',
+    categoryLabel: 'Commercial Fitouts',
+    stageLabel: 'HVAC Ducting & Tile Installation Complete',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.16_PM_e1c5ed49.jpeg',
+    workDone: [
+      '2x2 Exposed Grid Modular T-Bar Suspension',
+      'Integrated Inverter Cassette Air Conditioners',
+      'Flush 600x600 Glare-Free LED Troffer Panels',
+      'Concealed Fire Alarm & Sensor Wiring'
+    ],
+    location: 'Corporate Workspace & Banking Facility',
+    highlight: 'High-performance commercial ceiling integrating climate cooling and uniform task light.',
+  },
+  // 20. Geometric Interlocking Tray Ceiling
+  {
+    id: 'work-20',
+    title: 'Geometric Interlocking Tray Ceiling Design',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Certified',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.25_PM_8500968e.jpeg',
+    workDone: [
+      'Interlocking Multi-Tier Geometric Drop Layout',
+      'Concealed Amber 2700K Glow Cove Channel',
+      'Perimeter Recessed Corner Light Troffers',
+      'Precision Leveling with Laser Plumb Lines'
+    ],
+    location: 'Formal Living & Dining Room',
+    highlight: 'Architectural stepped geometry creating high visual interest and ambient warmth.',
+  },
+  // 21. Concentric Halo Circular Ceiling
+  {
+    id: 'work-21',
+    title: 'Concentric Halo Ceiling with Blue Neon Cove',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Handed Over',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.29_PM_78aa9911.jpeg',
+    workDone: [
+      'Radial Triple-Tier Circular Gypsum Drop',
+      'High-Lumen Vivid Blue Neon LED Backlighting',
+      'Reinforced Center Hub for Heavy Fan Mount',
+      'Perimeter Square Cutouts for Warm Accent Spots'
+    ],
+    location: 'Executive Bedroom Suite',
+    highlight: 'Bold circular architectural statement with vibrant moody evening ambient illumination.',
+  },
+  // 22. Classical Fan Medallion & Chandelier Tray
+  {
+    id: 'work-22',
+    title: 'Classical Fan Medallion & Chandelier Tray',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Lit',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.33_PM_ddeaefe6.jpeg',
+    workDone: [
+      'Ornate Fan-Fold Fluted Medallion Plastering',
+      'Gold-Tone Warm Perimeter LED Lighting',
+      'Heavy Steel Joist Anchor for Crystal Chandelier',
+      'Stepped Neoclassical Ceiling Architraves'
+    ],
+    location: 'Heritage Luxury Villa',
+    highlight: 'Combines classical artisan moldings with modern indirect cove engineering.',
+  },
+  // 23. Nautical Helm Gold Textured Ceiling Medallion
+  {
+    id: 'work-23',
+    title: 'Nautical Helm Gold Textured Ceiling Medallion',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed Artisan Handcrafted Installation',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.38_PM_db41456f.jpeg',
+    workDone: [
+      'Radial Mariner Ship Helm Gypsum Fabrication',
+      'Custom Artisan Gold Stucco Leaf Texture',
+      '10-Tier Cascading Matte Black Spherical Pendants',
+      'Integrated Circular Spotlights on Wheel Spokes'
+    ],
+    location: 'Duplex Villa Staircase & Double-Height Lobby',
+    highlight: 'One-of-a-kind sculptural centerpiece designed and crafted exclusively by DAS artisans.',
+  },
+  // 24. Artisan Gold Wheel Detail
+  {
+    id: 'work-24',
+    title: 'Artisan Gold Stucco Wheel Medallion – High-Angle Detail',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Fine Finish & Wire Hanging Calibration',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.42_PM_0c536d64.jpeg',
+    workDone: [
+      'High-Angle Macro Inspection of Gold Texture',
+      'Individual Wire Drop Length Calibration',
+      'Flush Center Black Base Plate Mounting',
+      'Zero-Defect Joint Seamlessness'
+    ],
+    location: 'Duplex Villa Atrium',
+    highlight: 'Detailed perspective highlighting hand-applied texture and mechanical lighting anchors.',
+  },
+  // 25. Corporate Lobby & Marble Clad Reception Desk
+  {
+    id: 'work-25',
+    title: 'Corporate Lobby & Marble Clad Reception Desk',
+    workType: 'commercial',
+    categoryLabel: 'Commercial & Corporate Fitout',
+    stageLabel: 'Completed & Handed Over',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.46_PM_d9e03506.jpeg',
+    workDone: [
+      'Italian Beige Veined Tile Cladding on Front Counter',
+      'Recessed Horizontal Mosaic Tile Accent Band',
+      'Vertical Wood-Fluted Accent Wall Paneling',
+      'Concealed Cable Routing & Reception Workstations'
+    ],
+    location: 'Corporate Commercial Headquarters',
+    highlight: 'Warm, prestigious corporate welcome desk built for durability and high foot-traffic.',
+  },
+  // 26. Executive Boardroom & Marble Paneled Suite
+  {
+    id: 'work-26',
+    title: 'Executive Boardroom & Marble Paneled Suite',
+    workType: 'commercial',
+    categoryLabel: 'Commercial & Corporate Fitout',
+    stageLabel: 'Completed & Operational',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.39_PM__1__bb9aa7bc.jpeg',
+    workDone: [
+      'Full-Wall High-Gloss Marble Laminate Paneling',
+      'Custom Oval Race-Track Conference Table',
+      'Concealed Push-to-Open Credenza Storage',
+      'Integrated Modular LED Square Troffers'
+    ],
+    location: 'Corporate Boardroom Suite',
+    highlight: 'Executive meeting suite balancing acoustic quietude with commanding corporate presence.',
+  },
+  // 27. Managing Director Private Cabin
+  {
+    id: 'work-27',
+    title: 'Managing Director Private Office & Cabin',
+    workType: 'commercial',
+    categoryLabel: 'Commercial & Corporate Fitout',
+    stageLabel: 'Completed & Furnished',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.39_PM_a885392a.jpeg',
+    workDone: [
+      'Custom L-Shaped Dark Wenge Workstation',
+      'Full-Height Marble Pattern Laminate Cladding',
+      'Wall-Mounted Floating Display & Book Ledges',
+      'Ergonomic Leather Director Seating'
+    ],
+    location: 'Executive Director Suite',
+    highlight: 'Private executive sanctuary with ergonomic workflow and high-end wall paneling.',
+  },
+  // 28. Industrial Security Portal
+  {
+    id: 'work-28',
+    title: 'Industrial Security Entrance Portal – Zirconium Complex',
+    workType: 'commercial',
+    categoryLabel: 'Civil Infrastructure & Portals',
+    stageLabel: 'Commissioned & Civil Roads Handed Over',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.51_PM_02afeb1c.jpeg',
+    workDone: [
+      'Heavy-Duty Structural Steel Portal Gantry Frame',
+      'Security Watch Cabin with Bullet-Resistant Glazing',
+      'Automated Access Crash Gates & Boom Barriers',
+      'Asphalt Road Approach & Zebra Traffic Markings'
+    ],
+    location: 'Industrial & High-Security Facility',
+    highlight: 'Industrial-scale civil and architectural entrance gateway engineered for strict security.',
+  },
+  // 29. L-Shaped Modular Kitchen with Marble Texture
+  {
+    id: 'work-29',
+    title: 'L-Shaped Modular Kitchen with Marble Texture Laminates',
+    workType: 'interiors',
+    categoryLabel: 'Modular Kitchens',
+    stageLabel: 'Completed & Ready for Cooking',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.37_PM_42ba4c0b.jpeg',
+    workDone: [
+      'Gray Marble-Grain Soft-Close Under-Counter Drawers',
+      'Jet Black Polished Granite Countertop with Bullnose Edging',
+      'Designer Ceramic Tile Backsplash with Fruit Motifs',
+      'Frosted Glass Upper Cabinetry with Aluminium Profiles'
+    ],
+    location: 'Urban Apartment Residence',
+    highlight: 'Durable, moisture-proof kitchen layout maximizing storage and easy maintenance.',
+  },
+  // 30. Modular Kitchen Corner Layout
+  {
+    id: 'work-30',
+    title: 'Modular Kitchen Corner Layout & Chimney Venting',
+    workType: 'interiors',
+    categoryLabel: 'Modular Kitchens',
+    stageLabel: 'Appliance Fitting & Sink Testing',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.43_PM_0d4fd6c6.jpeg',
+    workDone: [
+      'Corner Carousels & Blind Corner Pull-Out Tandems',
+      'Stainless Steel Single-Bowl Sink with Drainboard',
+      'High-Suction Slanted Chimney Hood Installation',
+      'Dedicated Utility Plumbing & Electric Points'
+    ],
+    location: 'Apartment Kitchen Remodel',
+    highlight: 'Optimized corner ergonomics ensuring no dead space in the kitchen work triangle.',
+  },
+  // 31. Modular Kitchen Overhead Vitrine
+  {
+    id: 'work-31',
+    title: 'Modular Kitchen Frosted Glass Overhead Vitrine',
+    workType: 'interiors',
+    categoryLabel: 'Modular Kitchens',
+    stageLabel: 'Cabinetry Assembly & Hardware Calibration',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.49_PM_89e4b7c7.jpeg',
+    workDone: [
+      'Upper Cabinet Frosted Glass Aluminium Frame Doors',
+      'Hydraulic Stay Mechanisms for Smooth Opening',
+      'Heavy Granite Return Splash Guard Details',
+      'Waterproof Marine Ply Carcass Construction'
+    ],
+    location: 'Kitchen Execution Phase',
+    highlight: 'Lightweight frosted glass upper cabinets enhancing visual space and accessibility.',
+  },
+  // 32. Custom Living Room TV Console
+  {
+    id: 'work-32',
+    title: 'Custom Living Room TV Entertainment Console',
+    workType: 'interiors',
+    categoryLabel: 'Custom Millwork & Living Spaces',
+    stageLabel: 'Completed & Integrated Spotlights',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.53_PM_3edab3b7.jpeg',
+    workDone: [
+      'Floating Dual-Tone Storage Drawer Base Console',
+      'Illuminated Open Display Cubbies with Warm LEDs',
+      'Vertical Striped Glass Trophy Showcase Cabinet',
+      'Concealed TV Cable Conduits & Media Wiring'
+    ],
+    location: 'Residential Living Hall',
+    highlight: 'Sleek entertainment console merging display vitrines with concealed electronics storage.',
+  },
+  // 33. Luxury Slate Gray Acrylic U-Shaped Kitchen
+  {
+    id: 'work-33',
+    title: 'Luxury Slate Gray Acrylic U-Shaped Kitchen',
+    workType: 'interiors',
+    categoryLabel: 'Modular Kitchens',
+    stageLabel: 'Completed Handover & Quartz Testing',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.59_PM_73b57a41.jpeg',
+    workDone: [
+      'High-Gloss Slate Gray Handleless Acrylic Cabinetry',
+      'Pure White Engineered Quartz Countertop & Island Return',
+      'Double-Bowl Undermount Stainless Sink & Pull-Out Faucet',
+      'Black Glass Angled Extraction Chimney & Pendant Fixtures'
+    ],
+    location: 'Luxury Independent Residence',
+    highlight: 'Expansive chef-inspired kitchen with ultra-modern high-gloss finishes and quartz stone.',
+  },
+  // 34. Symmetrical Geometric Rafter Gypsum Ceiling
+  {
+    id: 'work-34',
+    title: 'Symmetrical Geometric Rafter Gypsum Ceiling',
+    workType: 'ceilings',
+    categoryLabel: 'False Ceiling & POP Works',
+    stageLabel: 'Completed & Spotlights Tested',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.01.38_PM_0a2a3a11.jpeg',
+    workDone: [
+      'Symmetrical Stepped Circular Center Medallion',
+      'Integrated Wooden Rafter Accent Strips',
+      'Balanced Perimeter Recessed LED Spotlights',
+      'Smooth Putty Finish with High-Lumen Illumination'
+    ],
+    location: 'Residential Living & Lounge Area',
+    highlight: 'Harmonious geometric rhythm blending gypsum work with warm wooden architectural accents.',
+  },
+  // 35. Sanctuary Stage Transformation (Before & After)
+  {
+    id: 'work-35',
+    title: 'Sanctuary Stage Transformation (Before & After)',
+    workType: 'renovation',
+    categoryLabel: 'Turnkey Renovation & Remodeling',
+    stageLabel: 'Before vs After Complete Handover',
+    mediaType: 'image',
+    mediaUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_1.02.56_PM_cc126420.jpeg',
+    workDone: [
+      'Full Demolition of Dated Fabric Backdrop & Clutter',
+      'Acoustic Natural Timber Slat Feature Wall Installation',
+      'Backlit Architectural Gold Cross & Stage Spotlight System',
+      'Rustic Ledger Stone Cladding on Flanking Support Columns'
+    ],
+    location: 'Church Sanctuary & Assembly Hall',
+    highlight: 'Dramatic before-and-after metamorphosis into a world-class modern worship space.',
   },
 ];
 

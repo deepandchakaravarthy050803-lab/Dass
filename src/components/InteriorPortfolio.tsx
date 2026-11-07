@@ -12,14 +12,15 @@ export const InteriorPortfolio: React.FC<InteriorPortfolioProps> = ({ onOpenLigh
 
   const categories = [
     'All',
+    'False Ceilings',
     'Living Rooms',
     'Bedrooms',
     'Modular Kitchens',
-    'Bathrooms',
-    'False Ceilings',
-    'Dining Rooms',
     'Offices',
+    'Bathrooms',
+    'Dining Rooms',
     'Custom Furniture',
+    'Renovation',
   ];
 
   const filteredItems = selectedCategory === 'All'
@@ -36,7 +37,7 @@ export const InteriorPortfolio: React.FC<InteriorPortfolioProps> = ({ onOpenLigh
             <span className="text-stone-600">/</span>
             <span className="font-mono text-xs uppercase text-stone-300">INTERIOR DESIGN PORTFOLIO</span>
           </div>
-          <span className="font-mono text-xs text-stone-400">8 SPATIAL CATEGORIES</span>
+          <span className="font-mono text-xs text-stone-400">9 SPATIAL CATEGORIES · {INTERIOR_GALLERY.length} PROJECTS</span>
         </div>
 
         {/* Title & Filter Controls */}

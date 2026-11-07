@@ -17,6 +17,7 @@ export const ConstructionPortfolio: React.FC<ConstructionPortfolioProps> = ({ on
     'Luxury Villas',
     'Contemporary Elevations',
     'Commercial Buildings',
+    'Infrastructure',
   ];
 
   const filteredItems = activeCategory === 'All'

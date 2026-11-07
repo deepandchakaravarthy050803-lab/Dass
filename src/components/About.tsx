@@ -45,7 +45,7 @@ export const About: React.FC<AboutProps> = ({ onOpenConsultation }) => {
             <div>
               <div className="aspect-[16/10] overflow-hidden bg-stone-950 mb-4 border border-white/10">
                 <img
-                  src="/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg"
+                  src="/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.17_AM_d8d18d5c.jpeg"
                   alt="DAS Foundation Plinth Beams"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -85,7 +85,7 @@ export const About: React.FC<AboutProps> = ({ onOpenConsultation }) => {
             <div>
               <div className="aspect-[16/10] overflow-hidden bg-stone-950 mb-4 border border-white/10">
                 <img
-                  src="/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg"
+                  src="/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.12_AM_ad344f8b.jpeg"
                   alt="DAS Structure Demolition"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -165,7 +165,7 @@ export const About: React.FC<AboutProps> = ({ onOpenConsultation }) => {
             <div>
               <div className="aspect-[16/10] overflow-hidden bg-stone-950 mb-4 border border-white/10">
                 <img
-                  src="/public/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg"
+                  src="/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.48.13_AM_be2d41a7.jpeg"
                   alt="DAS Commercial Aluminum Cabins"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />

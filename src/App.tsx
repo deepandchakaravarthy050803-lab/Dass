@@ -82,10 +82,12 @@ export default function App() {
   };
 
   const workTypeLabels: Record<string, string> = {
-    interiors: 'Finished Interiors',
+    ceilings: 'False Ceiling & POP Works',
+    interiors: 'Finished Interiors & Kitchens',
     foundation: 'Civil Foundation',
     demolition: 'Demolition & Retrofit',
-    commercial: 'Commercial Partitions'
+    commercial: 'Commercial Partitions & Corporate',
+    renovation: 'Turnkey Renovation & Remodeling',
   };
 
   const handleApplyEstimateToForm = (service: string, area: string, budget: string) => {

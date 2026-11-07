@@ -40,7 +40,7 @@ export interface ServiceItem {
 export interface InteriorGalleryItem {
   id: string;
   title: string;
-  category: 'Living Rooms' | 'Bedrooms' | 'Modular Kitchens' | 'Bathrooms' | 'False Ceilings' | 'Dining Rooms' | 'Offices' | 'Custom Furniture';
+  category: 'Living Rooms' | 'Bedrooms' | 'Modular Kitchens' | 'Bathrooms' | 'False Ceilings' | 'Dining Rooms' | 'Offices' | 'Custom Furniture' | 'Renovation' | 'Commercial';
   area: string;
   style: string;
   materials: string;
@@ -51,7 +51,7 @@ export interface InteriorGalleryItem {
 export interface ConstructionGalleryItem {
   id: string;
   title: string;
-  category: 'Residential Buildings' | 'Luxury Villas' | 'Contemporary Elevations' | 'Commercial Buildings' | 'Structural & Site Progress' | 'Completed Projects';
+  category: 'Residential Buildings' | 'Luxury Villas' | 'Contemporary Elevations' | 'Commercial Buildings' | 'Structural & Site Progress' | 'Completed Projects' | 'Infrastructure';
   location: string;
   stage: string;
   structuralDetails: string;
@@ -111,7 +111,7 @@ export interface FaqItem {
 export interface RealWorkItem {
   id: string;
   title: string;
-  workType: 'interiors' | 'foundation' | 'demolition' | 'commercial';
+  workType: 'interiors' | 'foundation' | 'demolition' | 'commercial' | 'ceilings' | 'renovation';
   categoryLabel: string;
   stageLabel: string;
   mediaType: 'video' | 'image';
